@@ -1,0 +1,136 @@
+Specifikācija.
+
+1. Problēmas izpete un analīze
+
+1. Problēmas izpete
+Es bieži saskaros ar šo problēmu: kad vēlos noskatīties filmu vai seriālu, nevaru to atrast,
+ jo saglabāju tos dažādās vietās: piezīmēs, ziņojumos ar draugiem, lietotnēs. 
+ Pēc tam, kad apspriedu šo problēmu ar draugiem, uzzināju, ka neesmu vienīgais, kam ir šī problēma, 
+ tāpēc nolēmu izveidot veidlapu, kurā varu saglabāt filmas.
+
+ 1.2 izpētes metodes
+
+ Internēta resrsu izpēte - Uzzināt, kā padarīt programmu pieejamu vairākiem cilvēkiem. 
+
+ 1.3 Izpētes process 
+
+ Sagatavošanās - tiek sagatovatas filmas nosaukmi un attēlas.
+ Ir izpetītas programmas un viktorīnas piemēri.
+
+ Programmatūras daļa - tiek izvēlēta programma Visual stdio un valoda C# programmēšanai,
+ kur ir ērti izveidot dizainu un kodu programmai.
+
+ Saglābšanas fails - tiek sagatavots fails saraksts.txt, kur glābsies visa ievadīta informācija.
+
+ Viktorinas sagatavošana - tiek sagatavota viktorīna ar 5 jautājumiem. Katrā jautājumā ir attēls un 3 atbilžu varianti.
+
+ Secinājumu izdarīšana - problēma ir atrisināta. Tiek izveidota programma, kur glabsies filmas, var dalīties ar draugiem, var paspēlēties, 
+ ja skumji. Programmā nebūs sarežģītas pogas, viss tiek viegli saprotams.
+
+ 1.4 Mērķauditorija - Viedlapa ir vairāk piemērota jaunākiem cilvēkiem, aptuveni vecumā no 13 līdz 40 gadiem, 
+ jo ​​es uzskatu, ka jaunieši ērtāk orientējas internetā un programmās nekā vecākās paaudzes.
+  Turklāt vecākās paaudzes mēdz atkārtoti skatīties savas iecienītākās filmas, nevis meklēt jaunas filmas. 
+ Viedlapa ir piemērota arī dedzīgiem kinomīļiem, jo ​​tā atvieglo filmu saraksta atrašanu. Kā arī viktorinas un spēles vairāk
+ patīk jauniešiem nevis vecākām cilvēkiem.
+
+1.5 Programmatūras projekta apraksts 
+Projekta mērķis - izstrādāt lietotni, kur lietotājs var glābt filmas nosaukums, dalīties ar draugiem,
+kā  arī paspelēties un parbaudīt savas filmas zināšanās viktorīnā. Viktorīnā ir 5 jautājumi ar filmas fragmentiem, 
+kur pēc katrā jautājuma rakstīts pareizi vai nepareizi. 
+
+
+2.Programmatūras prasību specifikācija
+ Funkcionālas prasības
+
+ Lietotajs var ievādīt vārdu
+ Lietotājs var ievādit nosaukumu
+ Lietotājs var izvēlēties spēlēt vai nespēlēt viktorinā.
+ Viktorīna dod pareizu skaitļu punktus
+ Atvērot  txt failu ir redzamas ievādītie filmas nosaukumi
+ Viktorīnai ir 3 atbilžu varianti (1 pareizs, divi nepareizi)
+ Pēc katras atbildes viktorīnā tiek rakstīts pareizi vai nepareizi
+
+ Nefunkcionālas prasības
+
+ Pogas strādā
+ Lietotnē katrs fails iet viens pēc otrā
+ Viktorīna parādās attēlli, pogas ar atbildēm
+ Augša ir pogas "close", "minimise", "maximise"
+ Teksts ir redzamas
+ Textbox iekšā ir iespējams rakstīt
+ Dizains ir redzams 
+
+ 3. Programmatūras projekta izstrādes plāns
+ 3.1 Izvēlētā izstrādes modeļa pamatojums
+ Es izvēlējos pakapēnisko modeli, jo ar to vieglāk veidot programmu.
+ Izpildījot pirmo punktu, es sāku taisīt otru un tt. 
+ Manuprāt, tā ir vislābāka modeļa veids, jo tā nekad neaizmirstīsi nekādu punktu un nevajadzēt atgriezties atpakaļ. 
+
+ 3.2. Izstrādes plāns
+ Izdomāt ideju
+ Uzskīcēt lietotni
+ Izveidot plānu
+ Izvēlēties programmēšanas valodu un programmu
+ Izdomāt dizainu
+ Izveidot dizainu
+ Uzrakstīt kodu
+ Pārbaudīt lietotni
+
+4. Programmatūras projektējums
+
+4.1 Tehnoloģiju apraksts
+Es izmantoju Visual studio programmēšanas valoduu C#,
+kur ir iespējams viegli izveidot skaistu dizainu un, pamatojoties uz tā,
+ir iespējams izveidot kodu tai. Internētā Google Chrome es meklēju attēlas un filmas viktorinai 
+un lietotnes dizainam
+
+4.3 Funkcionalitātes apraksts
+Programmā var ievādīt vārdu sākuma.
+Otrajā formā ir iespējams ievādit filmas nosaukumu, kurš glābsies saraksts.txt
+Lietotājs var sākt viktorīnu, kurā jauzmin filmas fragmentu
+un jāizvēlās pareizu atbildi.
+Pēc katrā viktorīnas atbildes ir paradīts rezultāts
+Iespēja iziet un sākt viktorinu no jauna.
+
+5.Atkļūdošana un akcepttestēšana
+
+5.1 Apraksts
+Kad radījas kļūdas kodā es to redzējā zem koda un cenšējos tos uzlabot.
+Parbaudījot lietotnes funkcijas, pogas vai teksta darbu, es, skatīties kodu,
+to mainīju un parbaudījuu to darbā, iespiežot pogu "Start". Akcepttestēšana notieka,
+kad es dažas reizes parbaudīju programmu un biju parliecināta, ka kļūdas nav es saglābju to failā.
+
+5.2 Testpiemēru kopa
+Lietotne atvērās
+Sākuma ir iespējams ievādīt vārdu
+Pogas atvēd pareizās Formas
+Viktorīnās atbides pogas strādā
+Attēlas ir paradītas 
+MessageBox ir atvertas pareizās pogās
+Visas formas atvēras
+Failā "saraksts" ir ievadīti vārdi un filma nosaukums
+Lietotne aizvērās uzspiežot pogu "Close"
+
+6. Lietotāja ceļvedis
+Atvērt programmu
+Ievādīt vārdu
+Spiest "OK"
+Ievādīt filmas nosaukumu un spiest "Ievādīt"
+Atvērt sarakstu spiežot uz pogu "Skatīt sarakstu"
+Spiest uz pogu tālāk 
+Spiest pogu "Jā", ja gribās spēlēt, "Nē", ja - nē, "atpakaļ", ja vajag saraksts
+Uzspiest pogu "sākt"
+Izvēlēties pareizu atbildi (5 reizes)
+
+
+
+
+
+ 
+
+
+
+
+
+
+

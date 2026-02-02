@@ -1,0 +1,18 @@
+v1.0
+Izveidota Form1, kur jāievāda vārdu. Izveidota Form2, kur jauzraksta filmas nosaukumu.
+Spiežot pogu "Ievādīt" ir saglābts saraksts.txt failā.
+Spiežot pogu "Skatīt sarakstu" atvērās fails saraksts.txt
+Ir izveidots dizains
+Pievienotas attēlas.
+
+v2.0
+Ir pievienota viktorīna 
+Katram jautājuumam 3 atbilžu varianti, 1 atbilde pareiza, uzklišķot ir redzams pareizi vai nē
+Pievienotas attēlas 
+Izveidots dizains
+Izveidoti MessageBoxi
+
+v2.1
+Uzlābotas kļūdas
+Ir izvēlē spēlēt vai nē
+
